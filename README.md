@@ -114,18 +114,15 @@ Before installing and running BT SILENT, please ensure your system meets the fol
 - **Regular User:** The program will automatically detect insufficient privileges and prompt you to restart with sudo
 
 ---
-
-## 📥 INSTALLATION GUIDE
-
-Follow these step-by-step instructions to install BT SILENT on your system:
-
-### STEP 1 — Update System Packages
-```bash
-sudo apt update && sudo apt upgrade -y
-
-### Step 2 — Clone the repository
+### 🚀 Quickstart
 ```bash
 git clone https://github.com/williamkreese21/bt-silent.git
+cd bt-silent
+sudo apt update
+sudo apt install -y figlet lolcat bluez
+chmod +x *.sh
+echo "alias bt-silent='cd ~/bt-silent && sudo ./bt-silent.sh'" >> ~/.bashrc && source ~/.bashrc
+
 
 
 
