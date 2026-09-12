@@ -122,3 +122,10 @@ Follow these step-by-step instructions to install BT SILENT on your system:
 ### STEP 1 — Update System Packages
 ```bash
 sudo apt update && sudo apt upgrade -y
+
+### Step 2 — Clone the repository
+```bash
+git clone https://github.com/williamkreese21/bt-silent.git
+
+
+
